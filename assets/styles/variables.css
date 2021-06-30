@@ -2,4 +2,18 @@
   /* fonts */
   --sans-serif: 'karu', helvetica, arial, sans-serif;
   --serif: 'didonesque', garamond, serif;
+
+  /* typography */
+  --paragraph-size: calc(var(--unit) * 5);
+
+  /* colors */
+  --primary: #12a79d;
+  --primary-dark: #0e867e;
+  --secondary: #231f20;
+
+  /* grid */
+  --unit: 4px;
+
+  /* misc */
+  --transition: 300ms ease-in;
 }

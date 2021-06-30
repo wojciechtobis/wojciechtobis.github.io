@@ -1,17 +1,12 @@
 <template>
-  <div>
-    <header />
-    <main />
-    <aside />
-  </div>
+  <cv-header />
 </template>
 
 <script lang="ts">
-export default {}
-</script>
-
-<style lang="postcss">
-h1 {
-  color: red;
+import CvHeader from '~/components/cvHeader.vue'
+export default {
+  components: {
+    CvHeader
+  }
 }
-</style>
+</script>
