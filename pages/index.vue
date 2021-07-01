@@ -1,12 +1,12 @@
 <template>
-  <cv-header />
+  <cv />
 </template>
 
 <script lang="ts">
-import CvHeader from '~/components/cvHeader.vue'
+import Cv from '~/components/cv.vue'
 export default {
   components: {
-    CvHeader
+    Cv
   }
 }
 </script>
