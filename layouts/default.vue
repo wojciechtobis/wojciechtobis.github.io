@@ -52,8 +52,8 @@ export default Vue.extend({
 
 .print-button {
   position: absolute;
-  top: -calc(var(--unit) * 8);
-  left: -calc(var(--unit) * 3);
+  top: calc(0px - (8 * var(--unit)));
+  left: calc(0px - (3 * var(--unit)));
   border: 1px solid var(--primary);
   padding: calc(var(--unit) * 2) calc(var(--unit) * 4);
   font-family: var(--sans-serif);
