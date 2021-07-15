@@ -13,6 +13,13 @@
   margin: calc(var(--unit) * 25) auto;
   background: white;
   box-shadow: var(--primary-dark) 4px 4px 8px 0;
+
+  @media print {
+    --cv-width: 210mm;
+
+    margin: 0;
+    box-shadow: none;
+  }
 }
 
 *,

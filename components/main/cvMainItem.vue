@@ -39,6 +39,7 @@ export default Vue.extend({
 .cv-section-item {
   position: relative;
   padding-left: calc(var(--unit) * 8);
+  break-inside: avoid-page;
 
   + .cv-section-item {
     margin-top: calc(var(--unit) * 8);

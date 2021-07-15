@@ -1,5 +1,5 @@
 <template>
-  <aside class="cv-aside">
+  <aside class="cv-aside cv-aside--spacing">
     <h2 class="cv-aside__hidden-h2">
       More info
     </h2>
@@ -35,9 +35,17 @@ export default Vue.extend({
 <style lang="postcss" scoped>
 .cv-aside {
   border-left: 1px solid var(--primary);
-  padding: calc(var(--unit) * 25) calc(var(--unit) * 15) calc(var(--unit) * 25) calc(var(--unit) * 10);
   display: flex;
   flex-direction: column;
+
+  &.cv-aside--spacing {
+    padding-right: calc(var(--unit) * 15);
+    padding-left: calc(var(--unit) * 10);
+
+    @media print {
+      padding-right: 0;
+    }
+  }
 
   &__hidden-h2 {
     height: 0;
@@ -49,6 +57,7 @@ export default Vue.extend({
     margin-top: auto;
     margin-bottom: 0;
     font-size: calc(var(--paragraph-size) * 0.5);
+    break-inside: avoid-page;
   }
 }
 </style>

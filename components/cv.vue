@@ -34,9 +34,17 @@ export default Vue.extend({
   display: grid;
   grid-template-columns: 5fr 2fr;
 
-  & > *:first-child {
+  & > div,
+  & > aside {
     padding: calc(var(--unit) * 25);
-    padding-right: calc(var(--unit) * 10);
+
+    @media print {
+      padding: calc(var(--unit) * 10);
+    }
+
+    &:first-child {
+      padding-right: calc(var(--unit) * 10);
+    }
   }
 }
 </style>

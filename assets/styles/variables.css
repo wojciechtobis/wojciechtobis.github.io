@@ -16,4 +16,9 @@
 
   /* misc */
   --transition: 300ms ease-in;
+
+  @media print {
+    --unit: 3pt;
+    --paragraph-size: calc(var(--unit) * 4);
+  }
 }
