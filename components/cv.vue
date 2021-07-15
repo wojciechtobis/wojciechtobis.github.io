@@ -2,9 +2,9 @@
   <div class="cv">
     <div>
       <cv-header />
-      <cv-main />
+      <cv-main :data="data.main" />
     </div>
-    <cv-aside />
+    <cv-aside :data="data.aside" />
   </div>
 </template>
 
@@ -19,6 +19,12 @@ export default Vue.extend({
     CvHeader,
     CvMain,
     CvAside
+  },
+  props: {
+    data: {
+      type: Object,
+      required: true
+    }
   }
 })
 </script>
