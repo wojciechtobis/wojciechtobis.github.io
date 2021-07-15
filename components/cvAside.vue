@@ -1,5 +1,5 @@
 <template>
-  <aside>
+  <aside class="cv-aside">
     <div v-for="item in items" :key="item.title">
       {{ item.title }}
       {{ item.description }}
@@ -26,8 +26,10 @@ export default Vue.extend({
 })
 </script>
 
-<style scoped>
-aside {
-  border: 1px solid red;
+<style lang="postcss" scoped>
+.cv-aside {
+  border-left: 1px solid var(--primary);
+  padding: calc(var(--unit) * 25);
+  padding-left: calc(var(--unit) * 15);
 }
 </style>
