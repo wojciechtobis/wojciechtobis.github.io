@@ -32,12 +32,17 @@ export default Vue.extend({
 .cv-section {
   margin: calc(var(--unit) * 12) 0;
 
+  &:last-child {
+    margin-bottom: 0;
+  }
+
   h2 {
     margin-bottom: calc(var(--unit) * 8);
   }
 
   &--small {
     font-size: calc(var(--paragraph-size) * 0.8);
+    margin: calc(var(--unit) * 6) 0;
 
     &:first-of-type {
       margin-top: 0;
@@ -51,6 +56,10 @@ export default Vue.extend({
       &::first-letter {
         text-transform: capitalize;
       }
+    }
+
+    & >>> p:not(:only-of-type):not(:first-child) {
+      margin-top: var(--unit);
     }
   }
 }
