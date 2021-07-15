@@ -8,7 +8,7 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
 import Vue from 'vue'
 import CvHeader from './cvHeader.vue'
 import CvMain from './main/cvMain.vue'
@@ -28,7 +28,7 @@ export default Vue.extend({
   --cv-width: calc(var(--unit) * 250);
 
   display: grid;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 5fr 2fr;
   width: var(--cv-width);
   min-width: var(--cv-width);
   margin: calc(var(--unit) * 25) auto;
@@ -37,7 +37,7 @@ export default Vue.extend({
 
   & > *:first-child {
     padding: calc(var(--unit) * 25);
-    padding-right: calc(var(--unit) * 15);
+    padding-right: calc(var(--unit) * 10);
   }
 }
 </style>
