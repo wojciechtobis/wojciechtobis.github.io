@@ -1,7 +1,7 @@
 export default {
   main: {
     profile:
-        'I am a passionate front-end developer and web designer with a strong desire for personal development. My strengths include ability to work under pressure, organization skills and analytical thinking. I am known as a person with enthusiastic approach to new ideas and ability to solve problems.',
+        'I am a passionate front-end developer and web designer with a strong desire for personal development. My strengths include ability to work under pressure, organization skills and analytical thinking. I am known as a person with an enthusiastic approach to new ideas and ability to solve problems.',
     sections: [
       {
         title: 'Experience',
@@ -32,7 +32,7 @@ export default {
             position: 'Web Designer',
             company: 'Idium Polska',
             description:
-                'Developing functional designs and webdesigns for clients (Norwegian market), developing original and innovative website templates, improving and testing the CMS.'
+                'Developing functional designs and web designs for clients (Norwegian market), developing original and innovative website templates, improving and testing the CMS.'
           },
           {
             time: '03/2014 - 06/2016',
@@ -80,7 +80,7 @@ export default {
       },
       {
         title: 'Passions',
-        description: 'Dog training &&nbsp;behaviour<br/>Front-end development<br/>Fantasy &&nbsp;popular&nbsp;science literature<br/>Traveling &&nbsp;hitchhiking<br/>Scouting'
+        description: 'Dog training &&nbsp;behavior<br/>Front-end development<br/>Fantasy &&nbsp;popular&nbsp;science literature<br/>Traveling &&nbsp;hitchhiking<br/>Scouting'
       },
       {
         title: 'Volunteering',
