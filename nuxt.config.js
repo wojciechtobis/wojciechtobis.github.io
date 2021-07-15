@@ -19,7 +19,7 @@ export default {
   css: [
     '@/assets/styles/fontConfig',
     '@/assets/styles/variables',
-    '@/assets/styles/base'
+    '@/assets/styles/base.pcss'
   ],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
