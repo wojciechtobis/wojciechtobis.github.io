@@ -4,29 +4,29 @@
       <template #title>
         Profile
       </template>
-      <cv-section-item>
+      <cv-main-item>
         {{ cvData.profile }}
-      </cv-section-item>
+      </cv-main-item>
     </cv-section>
     <cv-section>
       <template #title>
         {{ cvData.sections[0].title }}
       </template>
-      <cv-section-item v-for="item in cvData.sections[0].items" :key="item.time">
+      <cv-main-item v-for="item in cvData.sections[0].items" :key="item.time">
         <template #title>
-          {{ item.position }} @ {{ item.company }}
+          {{ item.position }} @&nbsp;{{ item.company }}
         </template>
         <template #subtitle>
           {{ item.time }}
         </template>
         {{ item.description }}
-      </cv-section-item>
+      </cv-main-item>
     </cv-section>
     <cv-section>
       <template #title>
         {{ cvData.sections[1].title }}
       </template>
-      <cv-section-item v-for="item in cvData.sections[1].items" :key="item.time">
+      <cv-main-item v-for="item in cvData.sections[1].items" :key="item.time">
         <template #title>
           {{ item.field }}
         </template>
@@ -34,7 +34,7 @@
           {{ item.time }}
         </template>
         {{ item.uni }}
-      </cv-section-item>
+      </cv-main-item>
     </cv-section>
   </main>
 </template>
@@ -43,15 +43,15 @@
 import { markRaw } from '@nuxtjs/composition-api'
 import Vue from 'vue'
 
-import CvSection from './cvSection.vue'
-import CvSectionItem from './cvSectionItem.vue'
+import CvSection from '../cvSection.vue'
+import CvMainItem from './cvMainItem.vue'
 
 export default Vue.extend({
   name: 'CvMain',
 
   components: {
     CvSection,
-    CvSectionItem
+    CvMainItem
   },
 
   setup () {
@@ -64,7 +64,7 @@ export default Vue.extend({
             {
               time: '02/2020 - present',
               position: 'Front-end Developer, Frontend Enginering Leader',
-              company: 'NetEnt',
+              company: 'Kinside',
               description: 'Developing, maintaining and supporting Kinside products: childcare marketplace app (Vue 2, SCSS, Ruby on Rails), conducting code review, leading the front-end architecture, working in a distributed team (Poland, Canada, USA).'
             },
             {

@@ -62,7 +62,6 @@ export default Vue.extend({
 
   &__header {
     margin-bottom: calc(var(--unit) * 2);
-    font-family: var(--sans-serif);
   }
 
   &__subtitle {
