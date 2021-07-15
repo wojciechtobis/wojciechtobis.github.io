@@ -38,6 +38,11 @@ export default Vue.extend({
     padding: calc(var(--unit) * 25);
     padding-top: calc(var(--unit) * 35);
 
+    @media screen and (max-width: env(--tablet)) {
+      padding: calc(var(--unit) * 8);
+      padding-top: calc(var(--unit) * 16);
+    }
+
     @media print {
       padding: calc(var(--unit) * 10);
       padding-top: calc(var(--unit) * 20);
@@ -46,6 +51,10 @@ export default Vue.extend({
     &:first-child {
       padding-right: calc(var(--unit) * 10);
     }
+  }
+
+  @media screen and (max-width: env(--tablet)) {
+    display: block;
   }
 }
 </style>

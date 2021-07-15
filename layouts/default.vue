@@ -32,6 +32,16 @@ export default Vue.extend({
   background: white;
   box-shadow: var(--primary-dark) 4px 4px 8px 0;
 
+  @media screen and (max-width: env(--tablet)) {
+    --cv-width: 80vw;
+  }
+
+  @media screen and (max-width: env(--mobile)) {
+    --cv-width: 85vw;
+
+    margin-top: calc(var(--unit) * 15);
+  }
+
   @media print {
     --cv-width: 210mm;
 

@@ -38,9 +38,17 @@ export default Vue.extend({
   display: flex;
   flex-direction: column;
 
+  @media screen and (max-width: env(--tablet)) {
+    border: none;
+  }
+
   &.cv-aside--spacing {
     padding-right: calc(var(--unit) * 15);
     padding-left: calc(var(--unit) * 10);
+
+    @media screen and (max-width: env(--tablet)) {
+      padding-top: calc(var(--unit) * 4);
+    }
 
     @media print {
       padding-right: 0;
@@ -58,6 +66,11 @@ export default Vue.extend({
     margin-top: auto;
     font-size: calc(var(--paragraph-size) * 0.5);
     break-inside: avoid-page;
+
+    @media screen and (max-width: env(--tablet)) {
+      font-size: calc(var(--paragraph-size) * 0.8);
+      margin-top: calc(var(--unit) * 15);
+    }
   }
 }
 </style>

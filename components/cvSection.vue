@@ -62,6 +62,10 @@ export default Vue.extend({
     & >>> p:not(:only-of-type):not(:first-child) {
       margin-top: var(--unit);
     }
+
+    @media screen and (max-width: env(--tablet)) {
+      font-size: var(--paragraph-size);
+    }
   }
 }
 </style>

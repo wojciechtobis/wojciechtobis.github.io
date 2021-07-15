@@ -50,7 +50,14 @@ export default {
         'postcss-nested': {},
         'postcss-preset-env': {},
         autoprefixer: {},
-        'postcss-sorting': {}
+        'postcss-sorting': {},
+        'postcss-env-function': {
+          importFrom: [
+            {
+              environmentVariables: { '--tablet': '1050px', '--mobile': '460px' }
+            }
+          ]
+        }
       },
       preset: {
         // Change the postcss-preset-env settings
