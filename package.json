@@ -21,7 +21,6 @@
     }
   },
   "dependencies": {
-    "@nuxt/typescript-runtime": "^2.1.0",
     "@nuxtjs/composition-api": "^0.24.5",
     "core-js": "^3.14.0",
     "nuxt": "^2.15.3"
