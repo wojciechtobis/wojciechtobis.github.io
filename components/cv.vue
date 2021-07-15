@@ -28,11 +28,12 @@ export default Vue.extend({
   --cv-width: calc(var(--unit) * 250);
 
   display: grid;
-  grid-template-columns: 4fr 1fr;
+  grid-template-columns: 3fr 1fr;
   width: var(--cv-width);
   min-width: var(--cv-width);
   margin: calc(var(--unit) * 25) auto;
   background: white;
+  box-shadow: var(--primary-dark) 4px 4px 8px 0;
 
   & > *:first-child {
     padding: calc(var(--unit) * 25);
