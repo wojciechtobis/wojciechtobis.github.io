@@ -2,8 +2,9 @@ body {
   color: var(--secondary);
   font-family: var(--sans-serif);
   font-size: var(--paragraph-size);
-  margin: 50px auto;
-  max-width: 210mm;
+  margin: 0;
+  background-size: 10px 10px;
+  background-image: repeating-linear-gradient(45deg, #12a79d 0, #12a79d 1px, #fff 0, #fff 50%);
 }
 
 * {
