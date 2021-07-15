@@ -11,8 +11,8 @@
 <script>
 import Vue from 'vue'
 import CvHeader from './cvHeader.vue'
-import CvMain from './cvMain.vue'
-import CvAside from './cvAside.vue'
+import CvMain from './main/cvMain.vue'
+import CvAside from './aside/cvAside.vue'
 
 export default Vue.extend({
   components: {
