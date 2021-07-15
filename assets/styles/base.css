@@ -2,6 +2,7 @@ body {
   color: var(--secondary);
   font-family: var(--sans-serif);
   font-size: var(--paragraph-size);
+  padding: 50px;
 }
 
 * {

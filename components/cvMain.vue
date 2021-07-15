@@ -1,17 +1,33 @@
 <template>
   <main>
-    <section />
+    <cv-section>
+      <template #title>
+        Profile
+      </template>
+      <cv-section-item>
+        {{ cvData.profile }}
+      </cv-section-item>
+    </cv-section>
   </main>
 </template>
 
 <script lang="ts">
-import { defineComponent } from '@vue/composition-api'
+import { markRaw } from '@nuxtjs/composition-api'
+import Vue from 'vue'
 
-export default defineComponent({
+import CvSection from './cvSection.vue'
+import CvSectionItem from './cvSectionItem.vue'
+
+export default Vue.extend({
   name: 'CvMain',
 
+  components: {
+    CvSection,
+    CvSectionItem
+  },
+
   setup () {
-    return {
+    const cvData = markRaw({
       profile: 'I am a passionate front-end developer and web designer with a strong desire for personal development. My strengths include ability to work under pressure, organization skills and analytical thinking. I am known as a person with enthusiastic approach to new ideas and ability to solve problems.',
       experience: [
         {
@@ -28,6 +44,10 @@ export default defineComponent({
           uni: 'Faculty of Physics and Applied Computer Science \n AGH University of Science and Technology'
         }
       ]
+    })
+
+    return {
+      cvData
     }
   }
 })
