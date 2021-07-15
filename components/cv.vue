@@ -34,12 +34,13 @@ export default Vue.extend({
   display: grid;
   grid-template-columns: 5fr 2fr;
 
-  & > div,
-  & > aside {
+  & > * {
     padding: calc(var(--unit) * 25);
+    padding-top: calc(var(--unit) * 35);
 
     @media print {
       padding: calc(var(--unit) * 10);
+      padding-top: calc(var(--unit) * 20);
     }
 
     &:first-child {

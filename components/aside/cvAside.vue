@@ -54,8 +54,8 @@ export default Vue.extend({
   }
 
   &__agreement {
+    margin: 0;
     margin-top: auto;
-    margin-bottom: 0;
     font-size: calc(var(--paragraph-size) * 0.5);
     break-inside: avoid-page;
   }
