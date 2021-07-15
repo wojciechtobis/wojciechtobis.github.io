@@ -25,15 +25,8 @@ export default Vue.extend({
 
 <style lang="postcss" scoped>
 .cv {
-  --cv-width: calc(var(--unit) * 250);
-
   display: grid;
   grid-template-columns: 5fr 2fr;
-  width: var(--cv-width);
-  min-width: var(--cv-width);
-  margin: calc(var(--unit) * 25) auto;
-  background: white;
-  box-shadow: var(--primary-dark) 4px 4px 8px 0;
 
   & > *:first-child {
     padding: calc(var(--unit) * 25);
