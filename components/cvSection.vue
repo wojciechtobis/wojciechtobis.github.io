@@ -17,7 +17,7 @@ export default Vue.extend({
 
 <style lang="postcss" scoped>
 .cv-section {
-  margin: calc(var(--unit) * 10) 0;
+  margin: calc(var(--unit) * 12) 0;
 
   h2 {
     font-family: var(--serif);

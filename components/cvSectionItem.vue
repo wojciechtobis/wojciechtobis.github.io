@@ -1,6 +1,6 @@
 <template>
   <component :is="tag" class="cv-section-item" :class="{'cv-section-item--no-header': !withHeader}">
-    <header v-if="withHeader">
+    <header v-if="withHeader" class="cv-section-item__header">
       <h3 v-if="$slots.title" class="cv-section-item__title">
         <slot name="title" />
       </h3>
@@ -40,6 +40,10 @@ export default Vue.extend({
   position: relative;
   padding-left: calc(var(--unit) * 8);
 
+  + .cv-section-item {
+    margin-top: calc(var(--unit) * 8);
+  }
+
   &--no-header {
     p {
       font-size: calc(var(--paragraph-size) * 1.25);
@@ -56,12 +60,12 @@ export default Vue.extend({
     left: 0;
   }
 
-  &__title {
-    font-family: var(--serif);
+  &__header {
+    margin-bottom: calc(var(--unit) * 2);
+    font-family: var(--sans-serif);
   }
 
   &__subtitle {
-    font-family: var(--sans-serif);
     color: var(--primary);
   }
 }
