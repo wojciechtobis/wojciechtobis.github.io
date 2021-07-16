@@ -1,7 +1,7 @@
 export default {
   main: {
     profile:
-        'I am a passionate front-end developer and web designer with a strong desire for personal development. My strengths include ability to work under pressure, organization skills and analytical thinking. I am known as a person with an enthusiastic approach to new ideas and ability to solve problems.',
+        'I am a passionate front-end developer and web designer with a strong desire for personal development. My strengths include ability to work under pressure, organisation skills and analytical thinking. I am known as a person with an enthusiastic approach to new ideas and ability to solve problems.',
     sections: [
       {
         title: 'Experience',
