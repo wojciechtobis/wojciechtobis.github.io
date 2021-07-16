@@ -48,13 +48,13 @@ export default {
         items: [
           {
             field: 'Technical Physics, second circle of studies',
-            time: '2015 - 2018 (completion of studies without defending the degree)',
-            uni: 'Faculty of Physics and Applied Computer Science \n AGH University of Science and Technology'
+            time: '2015 - 2018',
+            uni: 'Faculty of Physics and Applied Computer Science<br/>AGH University of Science and Technology'
           },
           {
             field: 'Technical Physics, first circle of studies',
             time: '2011 - 2015',
-            uni: 'Faculty of Physics and Applied Computer Science \n AGH University of Science and Technology'
+            uni: 'Engineering degree<br/>Faculty of Physics and Applied Computer Science<br/>AGH University of Science and Technology'
           }
         ]
       }

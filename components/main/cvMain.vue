@@ -33,7 +33,7 @@
         <template #subtitle>
           {{ item.time }}
         </template>
-        {{ item.uni }}
+        <span v-html="item.uni" />
       </cv-main-item>
     </cv-section>
   </main>
