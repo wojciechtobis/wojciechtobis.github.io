@@ -1,45 +1,44 @@
 export default {
   main: {
     profile:
-        'I am a passionate front-end developer and web designer with a strong desire for personal development. My strengths include ability to work under pressure, organisation skills and analytical thinking. I am known as a person with an enthusiastic approach to new ideas and ability to solve problems.',
+      'I am an open-minded individual with a proven track record in designing websites and creating databases. I have strong technical skills as well as good interpersonal skills. I am eager to be challenged in order to grow and improve my communication and professional IT skills gained through previous experiences in the IT sector.',
     sections: [
       {
         title: 'Experience',
         items: [
           {
-            time: '02/2020 - present',
-            position: 'Front-end Developer, Frontend Enginering Leader',
-            company: 'Kinside',
+            time: '06/2019 - present',
+            position:
+              'Software Engineer, Advanced Software Engineer, Senior Software Engineer',
+            company: 'Relativity',
             description:
-                'Developing, maintaining and supporting Kinside products: childcare marketplace app (Vue 2, SCSS, Ruby on Rails), conducting code review, leading the front-end architecture, working in a distributed team (Poland, Canada, USA).'
+              'Working on several projects (UI Widget for presenting active workspaces, platform connector to Google Workspace, tool for retention monitoring data) with many technologies (C#, .NET, angular.js, Go, Azure)'
           },
           {
-            time: '09/2019 - 01/2020',
-            position: 'Front-end Developer',
-            company: 'NetEnt',
+            time: '08/2017 - 05/2019',
+            position: 'Consultant, Senior Consultant',
+            company: 'Andea Solutions',
             description:
-                'Developing, maintaining and supporting internal game frameworks (JSON form editor with React/TypeScript and Material-UI, sound library based on events in TypeScript) in international Agile environment.'
+              'Responsible for developing custom MES application (also on client\'s site) and moving product to Azure cloud (C#, .NET, Angular 5)'
           },
           {
-            time: '07/2018 - 08/2019',
-            position: 'Front-end Developer',
-            company: 'Closer',
+            time: '01/2017 - 07/2017',
+            position: 'Junior Implementation Consultant',
+            company: 'Profesal',
             description:
-                'Creating front-end for the Closer app, pixel-perfect implementation of designs, developing new and improving existing features, fixing bugs and refactoring using React with MobX, JavaScript/TypeScript and PostCSS.'
+              'Responsible for completing and implementing clients requirements in CMMS platform (C#)'
           },
           {
-            time: '03/2016 - 06/2018',
-            position: 'Web Designer',
-            company: 'Idium Polska',
-            description:
-                'Developing functional designs and web designs for clients (Norwegian market), developing original and innovative website templates, improving and testing the CMS.'
+            time: '08/2015-12/2016',
+            position: 'Implementation Consultant Intern',
+            company: 'Astor',
+            description: 'Developing and maintaining CRM platform (C#, JS)'
           },
           {
-            time: '03/2014 - 06/2016',
-            position: 'Lego Mindstorms Instructor',
-            company: 'KRAUL sport, rekreacja, edukacja',
-            description:
-                'Conducting courses for children and youth, assistance while building a robot, teaching programming (WeDo Software, Lego Mindstorms NXT and NXC) and building customer relationships.'
+            time: '04/2015 - 07/2015',
+            position: 'Intern',
+            company: 'IBM',
+            description: 'Creating intelligent XML files comparer'
           }
         ]
       },
@@ -47,14 +46,14 @@ export default {
         title: 'Education',
         items: [
           {
-            field: 'Technical Physics, second circle of studies',
-            time: '2015 - 2018',
-            uni: 'Faculty of Physics and Applied Computer Science<br/>AGH University of Science and Technology'
+            field: 'Master\'s degree of Automatic Control and Robotics',
+            time: '2016 - 2017',
+            uni: 'AGH University of Science and Technology'
           },
           {
-            field: 'Technical Physics, first circle of studies',
-            time: '2011 - 2015',
-            uni: 'Engineering degree<br/>Faculty of Physics and Applied Computer Science<br/>AGH University of Science and Technology'
+            field: 'Bachelor\'s degree of Automatic Control and Robotics',
+            time: '2012 - 2016',
+            uni: 'AGH University of Science and Technology'
           }
         ]
       }
@@ -64,29 +63,29 @@ export default {
     sections: [
       {
         title: 'Details',
-        description: 'Kraków <br/>+48 669 594 719 <br/><a href="https://www.linkedin.com/in/ktobis/" target="_blank">linkedin.com/in/ktobis</a><br/><a href="https://github.com/katarzynatobis" target="_blank">github.com/katarzynatobis</a><a href="https://www.behance.net/katawes" target="_blank"><br/>behance.net/katawes</a>'
+        description:
+          'Kraków <br/>+48 603 377 883 <br/><a href="https://www.linkedin.com/in/wojtob/" target="_blank">linkedin.com/in/wojtob</a><br/>'
       },
       {
         title: 'Languages',
         description: 'Polish (native)<br/>English (B2)'
       },
       {
-        title: 'Skills &&nbsp;Tools',
-        description: 'JavaScript, TypeScript, Vue, React, HTML&nbsp;5, CSS&nbsp;3, PostCSS, MobX, Git, Cypress, Adobe&nbsp;CC'
+        title: 'Skills and tools',
+        description:
+          'C#, .NET, Azure, Snowflake, Go, T-SQL, JavaScript, TypeScript, Angular'
       },
       {
         title: 'Honors &&nbsp;Awards',
-        description: '<p>HackYeah hackathon, X-&zwj;SOCIAL category &mdash;&nbsp;finalist (2017)</p><p>the European BEST Engineering Competition &mdash;&nbsp;4th place in Poland (2013)</p>'
+        description:
+          '<p>HackYeah hackathon, X-&zwj;SOCIAL category &mdash;&nbsp;finalist (2017)</p><p>the European BEST Engineering Competition &mdash;&nbsp;4th place in Poland (2013)</p><p>LXIII National Mathematical Olympiad finalist (2012)</p>'
       },
       {
         title: 'Passions',
-        description: 'Dog training &&nbsp;behavior<br/>Front-end development<br/>Fantasy &&nbsp;popular&nbsp;science literature<br/>Traveling &&nbsp;hitchhiking<br/>Scouting'
-      },
-      {
-        title: 'Volunteering',
-        description: '<p>React &&nbsp;TypeScript Mentor &mdash;&nbsp;DevMeetings</p><p>Scout guide &mdash;&nbsp;The&nbsp;Polish Scouting and Guiding Association (ZHP)</p>'
+        description: 'Football<br/>Running<br/>Books<br/>'
       }
     ],
-    agreement: 'I hereby agree to the processing of personal data included in my application for the needs necessary to carry out the recruitment process in accordance with art. 6 par. 1 lit. a Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of individuals with regard to the processing of personal data and on the free movement of such data and repealing Directive 95/46/EC (General Data Protection Regulation). I also consent to processing of my personal data for the purposes of any future recruitment processes.'
+    agreement:
+      'I hereby agree to the processing of personal data included in my application for the needs necessary to carry out the recruitment process in accordance with art. 6 par. 1 lit. a Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of individuals with regard to the processing of personal data and on the free movement of such data and repealing Directive 95/46/EC (General Data Protection Regulation). I also consent to processing of my personal data for the purposes of any future recruitment processes.'
   }
 }

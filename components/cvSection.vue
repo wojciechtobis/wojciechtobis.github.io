@@ -1,10 +1,8 @@
 <template>
-  <section class="cv-section" :class="{'cv-section--small': small}">
-    <header>
-      <component :is="headingTag">
-        <slot name="title" />
-      </component>
-    </header>
+  <section class="cv-section" :class="{ 'cv-section--small': small }">
+    <component :is="headingTag">
+      <slot name="title" />
+    </component>
     <slot />
   </section>
 </template>
@@ -53,6 +51,7 @@ export default Vue.extend({
       font-family: var(--serif);
       margin-bottom: calc(var(--unit) * 4);
       color: var(--primary);
+      font-weight: 600 !important;
 
       &::first-letter {
         text-transform: capitalize;

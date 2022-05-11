@@ -1,5 +1,8 @@
 <template>
   <div class="cv">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&family=Noto+Sans&display=swap');
+    </style>
     <div>
       <cv-header />
       <cv-main :data="data.main" />

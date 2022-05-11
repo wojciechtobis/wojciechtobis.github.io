@@ -47,7 +47,7 @@ export default Vue.extend({
 
   &--no-header {
     p {
-      font-size: calc(var(--paragraph-size) * 1.25);
+      font-size: calc(var(--paragraph-size) * 1);
     }
   }
 

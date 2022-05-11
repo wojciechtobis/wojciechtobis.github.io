@@ -1,14 +1,14 @@
 :root {
   /* fonts */
-  --sans-serif: 'karu', helvetica, arial, sans-serif;
-  --serif: 'didonesque', garamond, serif;
+  --sans-serif: "Kanit", helvetica, arial, sans-serif;
+  --serif: "Kanit", garamond, serif;
 
   /* typography */
   --paragraph-size: calc(var(--unit) * 5);
 
   /* colors */
-  --primary: #12a79d;
-  --primary-dark: #0e867e;
+  --primary: #457b9d;
+  --primary-dark: #1d3557;
   --secondary: #231f20;
 
   /* grid */
