@@ -11,6 +11,7 @@
     <p>
       <slot />
     </p>
+    <slot name="items" />
   </component>
 </template>
 

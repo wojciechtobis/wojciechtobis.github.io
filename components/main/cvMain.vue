@@ -20,6 +20,13 @@
           {{ item.time }}
         </template>
         {{ item.description }}
+        <template #items>
+          <ul v-if="item.projects">
+            <li v-for="project in item.projects" :key="project.time">
+              {{ project.description }}
+            </li>
+          </ul>
+        </template>
       </cv-main-item>
     </cv-section>
     <cv-section>
@@ -34,6 +41,25 @@
           {{ item.time }}
         </template>
         <span v-html="item.uni" />
+      </cv-main-item>
+    </cv-section>
+    <cv-section>
+      <template #title>
+        {{ data.sections[2].title }}
+      </template>
+      <cv-main-item v-for="item in data.sections[2].items" :key="item.time">
+        <template #title>
+          {{ item.title }}
+        </template>
+        <template #subtitle>
+          {{ item.time }}
+        </template>
+        <span v-html="item.description" />
+        <template #items>
+          <span v-if="item.link">
+            <a :href="item.link">{{ item.linkDescription }}</a>
+          </span>
+        </template>
       </cv-main-item>
     </cv-section>
   </main>
