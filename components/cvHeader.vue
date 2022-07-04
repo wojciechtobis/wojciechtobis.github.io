@@ -1,7 +1,11 @@
 <template>
   <header>
-    <h1>Katarzyna Tobiś</h1>
-    <address><a href="mailto:tobiskatarzyna@gmail.com">tobiskatarzyna@gmail.com</a></address>
+    <h1>Wojciech Tobiś</h1>
+    <address>
+      <a
+        href="mailto:wojciech.janusz.tobis@gmail.com"
+      >wojciech.janusz.tobis@gmail.com</a>
+    </address>
   </header>
 </template>
 
