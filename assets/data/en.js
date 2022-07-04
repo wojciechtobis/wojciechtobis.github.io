@@ -98,9 +98,9 @@ export default {
             description: 'Side project for managing Bitomats - cryptocurrencies ATMs (JavaScript, Erlang, React)'
           },
           {
-            title: 'AGH lectures & labs',
+            title: 'AGH UST lectures & labs',
             time: '10/2021-2/2022',
-            description: 'I was a member (responsible for the \'Storage\' part) of the team that prepared and presented lectures and labs (\'The basics of creating applications based on Azure services\') for Computer Science\'s students on the AGH'
+            description: 'I was a member (responsible for the \'Storage\' part) of the team that prepared and presented lectures and labs (\'The basics of creating applications based on Azure services\') for Computer Science\'s students on the AGH śUniversity of Science and Technology'
           },
           {
             title: 'IT piknik',
