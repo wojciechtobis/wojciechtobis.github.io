@@ -9,11 +9,14 @@ export default {
           {
             time: '6/2019 - present',
             position:
-              'Software Engineer, Advanced Software Engineer (4/2021), Senior Software Engineer (4/2022)',
+              'Software Engineer, Advanced Software Engineer (4/2021), Senior Software Engineer (4/2022), Lead Software Engineer (4/2023)',
             company: 'Relativity',
             description:
             'Responsible for the following projects:',
             projects: [
+              {
+                description: 'Leading the observability team responsible for log forwarding and processing (C#, Azure, Splunk, Fluent Bit, OpenTelemetry, K8s)'
+              },
               {
                 description: 'Tool for high performance data transfer in Relativity Platform (C#)'
               },
@@ -94,13 +97,13 @@ export default {
           },
           {
             title: 'Lamassu',
-            time: '2/2021-11/2021',
+            time: '2/2021 - 11/2021',
             description: 'Side project for managing Bitomats - cryptocurrencies ATMs (JavaScript, Erlang, React)'
           },
           {
             title: 'AGH UST lectures & labs',
-            time: '10/2021-2/2022',
-            description: 'I was a member (responsible for the \'Storage\' part) of the team that prepared and presented lectures and labs (\'The basics of creating applications based on Azure services\') for Computer Science\'s students on the AGH University of Science and Technology'
+            time: '10/2021 - present',
+            description: 'I am a member and since 2022 a leader (responsible for the \'Storage\' part) of the team that prepared and presented lectures and labs (\'The basics of creating applications based on Azure services\') for Computer Science\'s students on the AGH University of Science and Technology'
           },
           {
             title: 'IT piknik',
